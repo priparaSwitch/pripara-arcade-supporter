@@ -1,0 +1,1670 @@
+{
+  "version": "2.3.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "d32ea75932cc5df1af7f3ed621151715e1ade3bba8c6c0fce14de23dda8b557f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 528,
+      "sha256": "408ad1efcbdf94dbb8fbd95e04acfa9c1c6a8d01745de5f9aa45c9daeed71956"
+    },
+    {
+      "path": "app/app.py",
+      "bytes": 17701,
+      "sha256": "10c5a0ea235623ee5525eb43b6c8c02d2aa20193633a500b77085acfecaef60d"
+    },
+    {
+      "path": "app/app_dual.py",
+      "bytes": 27248,
+      "sha256": "8e863ccb50954decee01228520455792724d16654c5b0aaf1a2b3004319a280a"
+    },
+    {
+      "path": "app/camera_broker.py",
+      "bytes": 14531,
+      "sha256": "9cc0c76abd0b9319020763558ea9485757baaa8b1db4fc226b9f385faa791a63"
+    },
+    {
+      "path": "app/camera_output.py",
+      "bytes": 5792,
+      "sha256": "70d8e43ce01e4e84f614fcfd45322e998e5b77101c90eddba1f7f317128cb737"
+    },
+    {
+      "path": "app/character_assets/ASSET_MANIFEST.json",
+      "bytes": 28182,
+      "sha256": "128cabfeeb5442db292ace6a605ecbe37b8d5218b054d4b0b4d3c18ed0b4b95a"
+    },
+    {
+      "path": "app/character_assets/images/accent-0.webp",
+      "bytes": 2406,
+      "sha256": "f181e3708b0670f98521114b75a35dd4827da3291ea6406e518a4883e27782d8"
+    },
+    {
+      "path": "app/character_assets/images/eye-1.webp",
+      "bytes": 2180,
+      "sha256": "a64d905b169d5b904a587d24e1d2699b22dae1acdde8519b6aec5622c92770cf"
+    },
+    {
+      "path": "app/character_assets/images/eye-10.webp",
+      "bytes": 2284,
+      "sha256": "2e51cfda52512e18829192b62f9d20166e01de77fac1034740ce7c36f82f3174"
+    },
+    {
+      "path": "app/character_assets/images/eye-11.webp",
+      "bytes": 2176,
+      "sha256": "3dae4ff867bed2214c0619ba0ffe72ec24fef2e512d7f93f18f6ceedb87a354b"
+    },
+    {
+      "path": "app/character_assets/images/eye-12.webp",
+      "bytes": 2212,
+      "sha256": "4bd393e79c3d7c6448d817ba456c7415330336cbd91d375dccf75e14748c4aa5"
+    },
+    {
+      "path": "app/character_assets/images/eye-13.webp",
+      "bytes": 2216,
+      "sha256": "a5ccb64f32210b0002cc5aa7d9b1b7d473a0e679592ad125b39c7c314f50a2ef"
+    },
+    {
+      "path": "app/character_assets/images/eye-14.webp",
+      "bytes": 2148,
+      "sha256": "b6cf313eb24034840164f3a69155dc23d928bb16c80cb591123798b8681fb3a0"
+    },
+    {
+      "path": "app/character_assets/images/eye-15.webp",
+      "bytes": 2222,
+      "sha256": "d89f5b251dbc3ac2d3affc7bce1ffad38c04e1dbc7cd1c07e280be098eaf99d2"
+    },
+    {
+      "path": "app/character_assets/images/eye-16.webp",
+      "bytes": 2220,
+      "sha256": "6ee1f04678e6e1d930d23295aae0291009be2561860f9b40fac7ff254a682952"
+    },
+    {
+      "path": "app/character_assets/images/eye-17.webp",
+      "bytes": 2178,
+      "sha256": "cff3997c0bb154d4d433f14b3f0745f33c2e56419b222196e4252f54232fb904"
+    },
+    {
+      "path": "app/character_assets/images/eye-18.webp",
+      "bytes": 2204,
+      "sha256": "28c42a42fadffb4514b186289d70a71cac19915288abe2f8bde1499c3da2c50e"
+    },
+    {
+      "path": "app/character_assets/images/eye-19.webp",
+      "bytes": 2186,
+      "sha256": "18b16728d8f5c18cfba95765375f8bb9394898bc69da67d36e041560d469397c"
+    },
+    {
+      "path": "app/character_assets/images/eye-2.webp",
+      "bytes": 2246,
+      "sha256": "200dc36bebf7d33e3d67cc14c110b9cde7034dd8eec947cc0c6d42de5b122f74"
+    },
+    {
+      "path": "app/character_assets/images/eye-20.webp",
+      "bytes": 2182,
+      "sha256": "e200a36cc441c27da06e02ba3937c1233e1f78cf0053d296dae29ea81c2eca0f"
+    },
+    {
+      "path": "app/character_assets/images/eye-21.webp",
+      "bytes": 2252,
+      "sha256": "15836a39d6193f0fd913b90c9a58045d2e7a7427a9da4a2d78191ab108f4c64a"
+    },
+    {
+      "path": "app/character_assets/images/eye-22.webp",
+      "bytes": 2268,
+      "sha256": "489b1e2d3524b69fc0c91897578bea43df475440a5ac17dc76c2c1e079722bd1"
+    },
+    {
+      "path": "app/character_assets/images/eye-23.webp",
+      "bytes": 2192,
+      "sha256": "865f5d038bc149542326f46e24d1ab88dd1adac6fc93938451acab35e628c342"
+    },
+    {
+      "path": "app/character_assets/images/eye-24.webp",
+      "bytes": 2198,
+      "sha256": "ffb1b820d213e55f1856fa1c8c701917a4609c8195d143a12614ce2f7ed179ef"
+    },
+    {
+      "path": "app/character_assets/images/eye-25.webp",
+      "bytes": 2178,
+      "sha256": "7f8ab53fe8698f8c82b5f72ce380dfc0a7f9d2e31e6ad3621702318b4acaf8c8"
+    },
+    {
+      "path": "app/character_assets/images/eye-26.webp",
+      "bytes": 2148,
+      "sha256": "0f858a0ebfc2e76dff5d4093306408551b6ad0c8ba8d4d1cdad0aeb2a0e57c3f"
+    },
+    {
+      "path": "app/character_assets/images/eye-27.webp",
+      "bytes": 2146,
+      "sha256": "9e06e2c2492c50f42c6f48bae76252f06dee934dea94de2ee687566ec2d468c7"
+    },
+    {
+      "path": "app/character_assets/images/eye-28.webp",
+      "bytes": 2112,
+      "sha256": "47c578db19bee2e7d83a5219422420f68d7f7f3a8fdba7ded87d94a0af78b879"
+    },
+    {
+      "path": "app/character_assets/images/eye-29.webp",
+      "bytes": 2218,
+      "sha256": "7d82884df6fcff782c6b5eba9a835d8e5c0b61a16ce576b046a984d5eed74743"
+    },
+    {
+      "path": "app/character_assets/images/eye-3.webp",
+      "bytes": 2176,
+      "sha256": "df7c4d2db19c0bda4f0bb59e21527b030304f171f6d900b2262da8e5a5e36b38"
+    },
+    {
+      "path": "app/character_assets/images/eye-30.webp",
+      "bytes": 2318,
+      "sha256": "4b811e8d011b09596706d405917b77915c25121b5fac61ba6871834f193146f0"
+    },
+    {
+      "path": "app/character_assets/images/eye-31.webp",
+      "bytes": 2102,
+      "sha256": "c35311eb7a2d0f731cd6d34d27a2d31df7e1f6a658488c383c6ce9cf0eb14846"
+    },
+    {
+      "path": "app/character_assets/images/eye-32.webp",
+      "bytes": 2192,
+      "sha256": "c3816813e8cfe571cead1ce087b88a744a4f587f5e46c7c022cef9b831481b57"
+    },
+    {
+      "path": "app/character_assets/images/eye-33.webp",
+      "bytes": 2210,
+      "sha256": "10f152b6601c4be57558896a6efad09b5a3881735f3d8fcedc45dd49b6709aaa"
+    },
+    {
+      "path": "app/character_assets/images/eye-34.webp",
+      "bytes": 2198,
+      "sha256": "6b54f6a188a50de9e010a5b98d1cdbe4d59847137acea1cdce54c95bb7454b3b"
+    },
+    {
+      "path": "app/character_assets/images/eye-35.webp",
+      "bytes": 2196,
+      "sha256": "2e129aa6b31f22be891418ce0cf0de3c5b9ef2631a411a704e74d3aa04828b56"
+    },
+    {
+      "path": "app/character_assets/images/eye-36.webp",
+      "bytes": 2134,
+      "sha256": "9dfa565830c9c57912e42408023bc4582e33e053aa60c71bc0472ff0f56a284a"
+    },
+    {
+      "path": "app/character_assets/images/eye-37.webp",
+      "bytes": 2222,
+      "sha256": "a6248420e25531d9d33210444e7a5943f013615c6bcf313fe8294d6811c288d1"
+    },
+    {
+      "path": "app/character_assets/images/eye-38.webp",
+      "bytes": 2182,
+      "sha256": "676624c40008ceae57bf542fe9eda6ccaed758aa7ff991f20b77284fe32b707b"
+    },
+    {
+      "path": "app/character_assets/images/eye-39.webp",
+      "bytes": 2182,
+      "sha256": "ec284824bf169bd3e311f6cf9b3051c93944508320d719e1309fc5670eabec7a"
+    },
+    {
+      "path": "app/character_assets/images/eye-4.webp",
+      "bytes": 2208,
+      "sha256": "7aff060b0060293ff41e7a4d11d0a4beb6144f8f6c0fd1cfe8f2adf828211b08"
+    },
+    {
+      "path": "app/character_assets/images/eye-40.webp",
+      "bytes": 2242,
+      "sha256": "81ec5087b7787e49746990a1d6b0cc411a4b7eb5fc1f81e1b82bebcb5577b54f"
+    },
+    {
+      "path": "app/character_assets/images/eye-41.webp",
+      "bytes": 2170,
+      "sha256": "4457291ba545a971a6638e109fcbdf22fb82c73c7fef27c4cb57b34fc18e48ed"
+    },
+    {
+      "path": "app/character_assets/images/eye-42.webp",
+      "bytes": 2112,
+      "sha256": "31ea041563712c712e61206df7d8d7b01b1c32d33b6a64b614585cca4e46eabe"
+    },
+    {
+      "path": "app/character_assets/images/eye-5.webp",
+      "bytes": 2204,
+      "sha256": "9deb4481c968c061c5cbcc0ed33b3346b0db38ae6a6525b205982fa87c05fb96"
+    },
+    {
+      "path": "app/character_assets/images/eye-6.webp",
+      "bytes": 2246,
+      "sha256": "f7bbcf4070f8819e14f32710948ae2be27e42fcd890dfcb0109ea2a901364a31"
+    },
+    {
+      "path": "app/character_assets/images/eye-7.webp",
+      "bytes": 2174,
+      "sha256": "361ae95e2dbd82cb4e4d2b8754fcc3dc07af0aa80662aa8225a53be131bd4ed7"
+    },
+    {
+      "path": "app/character_assets/images/eye-8.webp",
+      "bytes": 2140,
+      "sha256": "c47f2bed7f7238ee98de99281b064db497b35cf005904614101f5b01d8fdacd3"
+    },
+    {
+      "path": "app/character_assets/images/eye-9.webp",
+      "bytes": 2234,
+      "sha256": "343ed6bdc7d7764f3b86d250f25f6d7e9f8feaafe9b50b0acca12190789517e6"
+    },
+    {
+      "path": "app/character_assets/images/face-10.webp",
+      "bytes": 1850,
+      "sha256": "2647b94d7d741ebc451a053eeaf784d18c37302c8d6a9903c254863b46c2d84d"
+    },
+    {
+      "path": "app/character_assets/images/face-6.webp",
+      "bytes": 1842,
+      "sha256": "2dd46315e6ee619815d135046c162c39bbe6c9b2ec21c760c18571649c1c46ec"
+    },
+    {
+      "path": "app/character_assets/images/face-7.webp",
+      "bytes": 1878,
+      "sha256": "105f55ff72e0a7b35eb1ef687cf86956fd1dce2d833ee5fa876f56d56ca09aec"
+    },
+    {
+      "path": "app/character_assets/images/face-8.webp",
+      "bytes": 1878,
+      "sha256": "605c24285fbce2bf14d758e16f5e74c984c3d22f203bdc5848076d14c9833148"
+    },
+    {
+      "path": "app/character_assets/images/face-9.webp",
+      "bytes": 1872,
+      "sha256": "ab93d3bff9f0723566a1a81431947be89907ac7f0a02d46c48db012baae79715"
+    },
+    {
+      "path": "app/character_assets/images/glasses-0.webp",
+      "bytes": 2420,
+      "sha256": "f33ff197a73bb63db4088164cf161301d47d63b8795f269e28c729b5b1356f9a"
+    },
+    {
+      "path": "app/character_assets/images/glasses-11.webp",
+      "bytes": 2446,
+      "sha256": "bc4373970721a95e5207676d04cdc38efc857e4688abc5bf8e89254ccf7ab1ef"
+    },
+    {
+      "path": "app/character_assets/images/glasses-12.webp",
+      "bytes": 2486,
+      "sha256": "8e845924dee7de76d57415fe9c254120c9ff9fbd30e5f60ac176396daa034bbd"
+    },
+    {
+      "path": "app/character_assets/images/glasses-13.webp",
+      "bytes": 2494,
+      "sha256": "f7f4b3e44aa55d38b61ab3e140a8ad6ce9f003d47333a15533737b0bed8b1054"
+    },
+    {
+      "path": "app/character_assets/images/glasses-14.webp",
+      "bytes": 2418,
+      "sha256": "2675fef745460ce87fd149611d7244b659ae5ccbeb73214c4e2bb7b7c9647a25"
+    },
+    {
+      "path": "app/character_assets/images/glasses-15.webp",
+      "bytes": 2408,
+      "sha256": "2a34653493bfc4503e55317c90683b541bebf40be1009d34b3f3519341f4a923"
+    },
+    {
+      "path": "app/character_assets/images/glasses-16.webp",
+      "bytes": 2566,
+      "sha256": "15d8f1273262766dbc46659605d197c4776fb583fe73b7a7f73348a5632a8615"
+    },
+    {
+      "path": "app/character_assets/images/glasses-17.webp",
+      "bytes": 2500,
+      "sha256": "ba76d724ae72104bada74ba0ea9265f6c77d85a0ffb319e0284473f4e4a1c332"
+    },
+    {
+      "path": "app/character_assets/images/glasses-18.webp",
+      "bytes": 2470,
+      "sha256": "e7a554f741590f5b90875200ab69c93726d53ec04c5e094962b1b3f0f2a664ab"
+    },
+    {
+      "path": "app/character_assets/images/glasses-19.webp",
+      "bytes": 2408,
+      "sha256": "fe9fd79e26478a6dcb385353516638c187f09a3e5a3eb4465899e3644931f8e8"
+    },
+    {
+      "path": "app/character_assets/images/hair-1.webp",
+      "bytes": 1274,
+      "sha256": "c31916cd4cf6723a3e641f732e7c7f0bf9bc5e90ef7f3315050cc467fa4a445d"
+    },
+    {
+      "path": "app/character_assets/images/hair-18.webp",
+      "bytes": 1246,
+      "sha256": "c9a00b75afb6f9d88012de1edcc509d23693dd967448272f2b5d4e9470a3f8e1"
+    },
+    {
+      "path": "app/character_assets/images/hair-19.webp",
+      "bytes": 1690,
+      "sha256": "77fc60fc5367c7b7e058f93e4e8ec2c9fd9129b7dbcc003f735b2ff8e7a35cf0"
+    },
+    {
+      "path": "app/character_assets/images/hair-2.webp",
+      "bytes": 1482,
+      "sha256": "1d7a98dfb61b13f2e8ebcc2e9b0b4b95218f6de4a55ca715231595c357a6f98c"
+    },
+    {
+      "path": "app/character_assets/images/hair-20.webp",
+      "bytes": 1706,
+      "sha256": "bdc835dde6a2f049b2678be1f7073df0b7ed5934e037a4dc263b804fa7a99f26"
+    },
+    {
+      "path": "app/character_assets/images/hair-26.webp",
+      "bytes": 2032,
+      "sha256": "85dae51f56db1374ac659e635335a41dc442b360a035fca429aac8e5f47f06d9"
+    },
+    {
+      "path": "app/character_assets/images/hair-27.webp",
+      "bytes": 1578,
+      "sha256": "bfe4ae88ef8d0a5c8e2ae5a27e46656845440a8c249b9086e8c34260f4f8531d"
+    },
+    {
+      "path": "app/character_assets/images/hair-28.webp",
+      "bytes": 2126,
+      "sha256": "ed7112a5397dbccb5f1a271401486895ff497b6ee2bb2b0970de50309f0985db"
+    },
+    {
+      "path": "app/character_assets/images/hair-3.webp",
+      "bytes": 1530,
+      "sha256": "a61e7f632a00b79f6f7a88603d6b8eab22bfe9f222e7ce2ab8f6ab084a975346"
+    },
+    {
+      "path": "app/character_assets/images/hair-30.webp",
+      "bytes": 1660,
+      "sha256": "8205224e76d086f12dcf0196987d93880ff43e61f7112b6466246e801a560afb"
+    },
+    {
+      "path": "app/character_assets/images/hair-31.webp",
+      "bytes": 1748,
+      "sha256": "8f19181216714d0deb87f0b243f4f57189092926c9fae84cb120aa0c82bfe372"
+    },
+    {
+      "path": "app/character_assets/images/hair-32.webp",
+      "bytes": 1244,
+      "sha256": "deeae4dce9e57fa208fc4bece9a0c3f48a76a5b159514d1dfc5f867fdbfa2b39"
+    },
+    {
+      "path": "app/character_assets/images/hair-34.webp",
+      "bytes": 1722,
+      "sha256": "692595b4a9506839cb2a5df7f3dc6b7dd91cab00481ef45e929d3f301161d63b"
+    },
+    {
+      "path": "app/character_assets/images/hair-35.webp",
+      "bytes": 1726,
+      "sha256": "8e843898c7ec6518860bda1202932c77a50d8d2a1390242c8ffaf4a4f8fc4800"
+    },
+    {
+      "path": "app/character_assets/images/hair-36.webp",
+      "bytes": 1668,
+      "sha256": "f0d1b3e33a69fd781e7d1461feff455d711b7942b8b66f1d3dcb861c86861a69"
+    },
+    {
+      "path": "app/character_assets/images/hair-37.webp",
+      "bytes": 1562,
+      "sha256": "be53f45252161799d1c745c3e25a05a94f19a85ea66ad23ad475decf98800f94"
+    },
+    {
+      "path": "app/character_assets/images/hair-38.webp",
+      "bytes": 1662,
+      "sha256": "60244d6578fcec4c17c9312ffd0c65a2bb3c9a3c30bbaa199296627496424332"
+    },
+    {
+      "path": "app/character_assets/images/hair-39.webp",
+      "bytes": 1838,
+      "sha256": "bee0336bceae202d8c01a815e80b45cfb304e239987f132d7633509f276f2cb3"
+    },
+    {
+      "path": "app/character_assets/images/hair-4.webp",
+      "bytes": 1564,
+      "sha256": "5bc09df69c14a2d30f4391569866185acc22e0090453881b89a82da9b9e83c97"
+    },
+    {
+      "path": "app/character_assets/images/hair-40.webp",
+      "bytes": 1442,
+      "sha256": "ebb716e9f8405ac295bdfb6f3bbd03659d242a7a45277b37473fd42f4fa1b193"
+    },
+    {
+      "path": "app/character_assets/images/hair-41.webp",
+      "bytes": 1606,
+      "sha256": "d7d0f60b2d2d096aad5bf4baf485b080bf278172caa998a5f00dfa8dd132d1de"
+    },
+    {
+      "path": "app/character_assets/images/hair-42.webp",
+      "bytes": 1748,
+      "sha256": "3fa2e26ebad78be02f38562789d39dadc9b8daca47f2fe355d1ac2ae49dda809"
+    },
+    {
+      "path": "app/character_assets/images/hair-43.webp",
+      "bytes": 1790,
+      "sha256": "5f6b2593c3289214676afa9fbcc4daf098b6c4258a5ef5bed26baf7e3f4b9a10"
+    },
+    {
+      "path": "app/character_assets/images/hair-44.webp",
+      "bytes": 1488,
+      "sha256": "b919e789b027585da3ac15ad236e6d76e5718c04c6b8755496af0c7b019a3ce5"
+    },
+    {
+      "path": "app/character_assets/images/hair-5.webp",
+      "bytes": 1634,
+      "sha256": "ccdbaa43447e0ceabfc0ba0fb73505f140ae9e81d99c7add2b720dbd7fde82b3"
+    },
+    {
+      "path": "app/character_assets/images/hair-50.webp",
+      "bytes": 1970,
+      "sha256": "9650cbce8fbf96ff299efbff24157ace2d60bc82ab215c785162f1d968644bf0"
+    },
+    {
+      "path": "app/character_assets/images/hair-51.webp",
+      "bytes": 1838,
+      "sha256": "16679ca7caa3b79ef6604b581fddbec3846aaf3dda6b210852d8fc9daaa81ca3"
+    },
+    {
+      "path": "app/character_assets/images/hair-6.webp",
+      "bytes": 1756,
+      "sha256": "b8f4bc5877f76231745da7bbc04a32187c47b4bce6be626d598958ef8e06fd9d"
+    },
+    {
+      "path": "app/character_assets/images/hair-60.webp",
+      "bytes": 1784,
+      "sha256": "5aa3a49452cb66acae42469466ae64d5c960e23c5dde3dc610b4cccb25bdf1ad"
+    },
+    {
+      "path": "app/character_assets/images/hair-61.webp",
+      "bytes": 1666,
+      "sha256": "7176b9834c3833fb8d9d2c13fbda4f0c43e782841776b80fca8a261de3d1411e"
+    },
+    {
+      "path": "app/character_assets/images/hair-63.webp",
+      "bytes": 1406,
+      "sha256": "ae4e3d71bb4c7d435e7ad2c95aba3db9164cf36bc20c9dba18c27741ca4b0e9d"
+    },
+    {
+      "path": "app/character_assets/images/hair-64.webp",
+      "bytes": 1310,
+      "sha256": "fe95af87cb07a4f4f17c11bdc910466da93a088d5903fddb950f36447c449bc0"
+    },
+    {
+      "path": "app/character_assets/images/hair-65.webp",
+      "bytes": 1990,
+      "sha256": "3fb9219c72616828e0782b4d3260ccfac0874bd19e00d30e6b3d71511dec6158"
+    },
+    {
+      "path": "app/character_assets/images/hair-66.webp",
+      "bytes": 1698,
+      "sha256": "bd03a74501461953a27fd159c7534d61d662b5f2e2d8c6661792ea53b33f25b5"
+    },
+    {
+      "path": "app/character_assets/images/hair-67.webp",
+      "bytes": 1174,
+      "sha256": "0cafc08df0ea16b30532334a1cec4f39b303305cf295a3538faf59337b2298a6"
+    },
+    {
+      "path": "app/character_assets/images/hair-68.webp",
+      "bytes": 1788,
+      "sha256": "9ebcbd5ce382ecfa7315120706a830bc71053233439ec94acb7a417c7a8379ba"
+    },
+    {
+      "path": "app/character_assets/images/hair-69.webp",
+      "bytes": 1466,
+      "sha256": "d753df7db70856b2648267baa5af05968d1f6b2fd5d801c3e09c1cc58e582f0e"
+    },
+    {
+      "path": "app/character_assets/images/hair-7.webp",
+      "bytes": 2180,
+      "sha256": "f5ad133dcf2bcb837b285008b7e12f10db00d33d4342d28d4585d645c8fd4150"
+    },
+    {
+      "path": "app/character_assets/images/hair-70.webp",
+      "bytes": 1734,
+      "sha256": "88c7112c04ff57c3bd31af70d8243e684cd79d45b423f02c219c6bd7936b98ce"
+    },
+    {
+      "path": "app/character_assets/images/hair-71.webp",
+      "bytes": 1450,
+      "sha256": "d0e8933446d7cbe0a4736f571e6cc27d2e62e9ffc397286a383d2d7e5a0103c3"
+    },
+    {
+      "path": "app/character_assets/images/hair-72.webp",
+      "bytes": 1604,
+      "sha256": "2b9db9ce5f01636649c4ceb42d534ddc8948ea6306bc1f69a1c94fb5a40589ba"
+    },
+    {
+      "path": "app/character_assets/images/hair-73.webp",
+      "bytes": 1594,
+      "sha256": "dcc525c9085c53f9e07e9e7dc8e26d1e1d32683d9b0cafed97a3779669368848"
+    },
+    {
+      "path": "app/character_assets/images/hair-74.webp",
+      "bytes": 1722,
+      "sha256": "f2559c8960ff94983fc5dfb78485e5cd59a64137bff1ef2fafdc665b57bbe754"
+    },
+    {
+      "path": "app/character_assets/images/hair-75.webp",
+      "bytes": 1654,
+      "sha256": "f22e0cc80429a137e923d032b38fa0642474108f1a65ab432bf9022fd5e4c70a"
+    },
+    {
+      "path": "app/character_assets/images/hair-76.webp",
+      "bytes": 2552,
+      "sha256": "9482cc752eabf285d119c11fcf61835a21465912f293bf090ebbd121863fdd58"
+    },
+    {
+      "path": "app/character_assets/images/hair-77.webp",
+      "bytes": 1364,
+      "sha256": "76fc31be8de9275c533444e0f87771d38dcbb384d734552e4825813a629bb261"
+    },
+    {
+      "path": "app/character_assets/images/hair-78.webp",
+      "bytes": 1424,
+      "sha256": "4cd1a079cfd5219b27bf61702b4bba2c35c9834c5bc62285ec9bddbe08e6b2b1"
+    },
+    {
+      "path": "app/character_assets/images/hair-80.webp",
+      "bytes": 1802,
+      "sha256": "04375e84b59b8c11d4ad0fd85b2fb662a52324710d85370c56f63e0e50ec557a"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-1.webp",
+      "bytes": 1898,
+      "sha256": "d05180f39b729d0b65e615296e8c71f107e9cb2decf71b54020a8b6a0b84d040"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-10.webp",
+      "bytes": 2112,
+      "sha256": "0292e68cc70848582e55f39853fa0a7c17eafb9f868d8e326b661389c876deb9"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-11.webp",
+      "bytes": 1996,
+      "sha256": "aeaa0daf2c1a61a49203019130199db62cac608ac8bae0a6b30e9ed1b332a5d0"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-12.webp",
+      "bytes": 2008,
+      "sha256": "060cbcf3f6baa2282a2749874cde36f567792a4921abe22a475ba379175f550f"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-13.webp",
+      "bytes": 1728,
+      "sha256": "747249ef61a06b7c54d4da518d7e10c084ef26a303f409dfcd574ca51b4d7bae"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-14.webp",
+      "bytes": 1848,
+      "sha256": "f85d0c1d3844ff278d75652b5888f58622fd07b80c0bd383d8bb557def1b0188"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-15.webp",
+      "bytes": 1806,
+      "sha256": "87b52ea0841a29fdb58986ce74ec6a9ae4a8b5981a81c89d44cb4ba975b6cae2"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-16.webp",
+      "bytes": 1960,
+      "sha256": "b53b05ca1b5eb7f318ea0fec4b62acb0f1b389ab2721d666f7823c20fd654b22"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-17.webp",
+      "bytes": 1808,
+      "sha256": "72ee643890e48896a7b4f5380ae444240c17402db7abb673e40d74e224b72166"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-18.webp",
+      "bytes": 2040,
+      "sha256": "dbf1662ebbecf09ffc69f11f170ab035c34aa42fcddcf7dc645b5f52478e7f8b"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-2.webp",
+      "bytes": 1968,
+      "sha256": "8d4faa1169a7de5bf3c668a457cd7d7f99a4b15318347f520fe4719d3728b039"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-20.webp",
+      "bytes": 1962,
+      "sha256": "1e09e2849c6371374b4538f431f5b1c1a32d4c26b8ed5f890bd24cd4f6eb2130"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-22.webp",
+      "bytes": 1774,
+      "sha256": "2a536837dacfad8a8f9ade8093b0c211380ba8358bc8c196cafd1cf1851c076f"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-23.webp",
+      "bytes": 1848,
+      "sha256": "040e71e8885cf7e5f0cd59f0b189eb50d9c003c3227cdce18c35e69f86e0ed8b"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-24.webp",
+      "bytes": 1812,
+      "sha256": "f05a61357795fb1ebde9187989cee04cc6e3d25b0e16c9012a31936229227ade"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-25.webp",
+      "bytes": 2016,
+      "sha256": "2c71238b8035c088bec3b920dfc1c422310b3f4ca4913acce0e2dea46b229acf"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-26.webp",
+      "bytes": 2032,
+      "sha256": "d1a9eed70f5750e9af40850f024f16103d027d62c52610903720f3fb3903034f"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-27.webp",
+      "bytes": 2026,
+      "sha256": "b5fda03e394a406b58b67267eb37a837455e2a2cdca4c923fdaf134efaa61856"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-28.webp",
+      "bytes": 2040,
+      "sha256": "aa866a16770f1a0cd9f3f4db7496eafea649e4391cefbf4eafe87faa94191032"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-29.webp",
+      "bytes": 1840,
+      "sha256": "381f4ce2abff273294f940f888f4e0df6f8f6f59f9ae9fece779aea5e8357427"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-3.webp",
+      "bytes": 1968,
+      "sha256": "13fd539688d72c8584450a2e98501c7a78bae028d0127144efe7e250e04896f2"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-30.webp",
+      "bytes": 1930,
+      "sha256": "056629b66e1462db526184b0881476ba078aecb1d0aa83f7293991cb721cd083"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-31.webp",
+      "bytes": 1860,
+      "sha256": "84c25eab60642c4c7e17579b844c5928018e889269aa59561f6fdafc060f01c2"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-32.webp",
+      "bytes": 2040,
+      "sha256": "0554fe04d76028f1ca59c201218643fec6d350e732e839d348cd8de17caeaa27"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-33.webp",
+      "bytes": 1974,
+      "sha256": "8f6c05a14b2a003019da708dfc340d995c43d9339ee34e9dfda6ae1365945277"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-34.webp",
+      "bytes": 1732,
+      "sha256": "79c09c12c6b36cac4d13fbfed0ee23d78ffc29957a997f460f08c7674cba3525"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-35.webp",
+      "bytes": 1802,
+      "sha256": "954cedd4475d65f5784eef0e77fc1c89036196183d98c7dfce566e0bf58b3ea5"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-36.webp",
+      "bytes": 1704,
+      "sha256": "197cba9694d1c71870846752982d82675e56c9c3048725172a074633b7264d07"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-37.webp",
+      "bytes": 2014,
+      "sha256": "13f85c4aa59eee6d5b45aa533b7b4621e151f14a5f22b801617e6acd509c76aa"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-38.webp",
+      "bytes": 2034,
+      "sha256": "b5ba1a8e67ef91c0b925fd188e71918a8c282645dd075e08b7932c1c1548d81c"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-39.webp",
+      "bytes": 1896,
+      "sha256": "a9373c687a91da808c739d1fd4a689de4fa894f062f9080be54c74ff3ad4fddf"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-4.webp",
+      "bytes": 1946,
+      "sha256": "bf5d606f64a1139b72daa8211ab33c15689f1ab97ce1284c8bce2dcd23914019"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-40.webp",
+      "bytes": 2056,
+      "sha256": "3c0126d41b32d5d5ea2a624a8c30d0a8f9c0596d36327751e0a05280f0400b86"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-41.webp",
+      "bytes": 1836,
+      "sha256": "8d3d9d66dea90e361d787047127e4c7740d14ae8919dfe73813238df45bfdfb5"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-42.webp",
+      "bytes": 1712,
+      "sha256": "94bff0465190f91c52a0f4eec12e58f7a468335b3056cb9e9d366a4f42d1ce9f"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-43.webp",
+      "bytes": 1634,
+      "sha256": "114e6b9a4d9c5a3971d78225753e45c7c9ea65bc3fd0164ba2665a4616f97ac3"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-44.webp",
+      "bytes": 1780,
+      "sha256": "e3e788f58973361ed30f4d4e71155e8514ba3c3497baaf9bdaed684f0eba423b"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-45.webp",
+      "bytes": 1936,
+      "sha256": "e13703779b4beb2c68820b9bb1bfb114fa4b7045c17ca480fc03ece2f7c6473e"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-46.webp",
+      "bytes": 1860,
+      "sha256": "955f308b2b1279aa11cbe97fabeef1cdc4e17ee89e9772f10c0abf37f3e65fb0"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-47.webp",
+      "bytes": 1964,
+      "sha256": "36280cf91d2d0c46890d2e92a48548bf9cde5f56edfcf26c7762d47d03f4866c"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-48.webp",
+      "bytes": 1938,
+      "sha256": "bed10e2047076facf0fde48e2f22dcf0625949651e1e3909e5685e1596aea95e"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-49.webp",
+      "bytes": 2020,
+      "sha256": "d6775e8d46e88097d5f128f33bf95ed06cb27c872304985a944fe1ca8a7dfb4a"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-5.webp",
+      "bytes": 1814,
+      "sha256": "cdcc02fb8e0737a80f39016fdfea03b8a7ede6865f66345cca82185601af7a7c"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-50.webp",
+      "bytes": 1710,
+      "sha256": "ae6b4214aae8166862b1b53e2eaf9bfa8717d7d15422dbeba4e5c8d05eefc703"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-51.webp",
+      "bytes": 1882,
+      "sha256": "8b137801e4fea2a18bbe4a30ee90280e672a843e108167bbfae58ac4a9c922f7"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-52.webp",
+      "bytes": 1758,
+      "sha256": "fdc5289664cf06807b4d9454353fe58547a0bca425e6b2dfa6a1dc8776633c90"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-53.webp",
+      "bytes": 1906,
+      "sha256": "259da189d2221098bbee5aeff6d90fe7488f4f3007e2f72aab7a08805c9c3aa1"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-54.webp",
+      "bytes": 1910,
+      "sha256": "3e6409b99582a32e1afb949feb1e2effd836ae72e2e583c8b940cd9e9e7e2040"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-55.webp",
+      "bytes": 2026,
+      "sha256": "cd8e9a158e0140fc7cd00b8da3e2ad7e5356175a0b73ffcd5f0747480b8f3318"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-56.webp",
+      "bytes": 1728,
+      "sha256": "e73295932a982ee157c038aa60d5a74347e6881b1b07561ec1d87e64a29d2c77"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-57.webp",
+      "bytes": 1644,
+      "sha256": "70f5b0dbf2d0bbd83178cffebbec75b494e0ce16a7a0a8630da5874dad5a2d74"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-58.webp",
+      "bytes": 1762,
+      "sha256": "aa45e858cbbf6aa2377681a7851d978108ea39485047ed0cab2cabedef092305"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-59.webp",
+      "bytes": 1780,
+      "sha256": "8f9800a7433c001bc8a3a7642ce0758cc57386a345c1fcb915e7ec8600e69b3f"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-6.webp",
+      "bytes": 2014,
+      "sha256": "5b5cc214d066b21a87476cf3396290090e055e2325f378e32086b48d1bff79dc"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-60.webp",
+      "bytes": 1558,
+      "sha256": "f68227919bc4ce93a2cd9b21c1013cb4ddde6744309cfa31ff9c60c996be30dd"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-61.webp",
+      "bytes": 1682,
+      "sha256": "50ad422d2d96944cda8051f2633da3880bc40f4b931944d1764dd88f137dd7ca"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-62.webp",
+      "bytes": 2064,
+      "sha256": "bc38360289dfbc222e5da6352618b55a66c00ff8a09410e650c00fc4dd3f621e"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-63.webp",
+      "bytes": 1728,
+      "sha256": "75eac6f80719dbb801c2522841da98e2e20ce678fd3f0c4e081e719e8487158d"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-7.webp",
+      "bytes": 1670,
+      "sha256": "7a3d44030cbde64ecedc9f9d8807d6765945ae3499aefaaf1bb9e37218b5fc5f"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-8.webp",
+      "bytes": 1866,
+      "sha256": "de2239f9b172bc6d1b5987113363f22d827e9486d60715429b7cf25c963c61b2"
+    },
+    {
+      "path": "app/character_assets/images/hairColor-9.webp",
+      "bytes": 2054,
+      "sha256": "f11bc9117e521e602d76ce7b4c760ad8a9273190f177a8f26c1c4bda3935d4db"
+    },
+    {
+      "path": "app/character_assets/images/new-character-qr.png",
+      "bytes": 3826,
+      "sha256": "805e3c9cd5a829d237a5a5758ba522f370fba142f8d182c81b817d7941c430f5"
+    },
+    {
+      "path": "app/character_assets/images/skin-0.webp",
+      "bytes": 1634,
+      "sha256": "813834ad4ae8f15b11807f4e6a2dd7a5196ac9c5b7f3c58e81c3dbf74c97f467"
+    },
+    {
+      "path": "app/character_assets/images/skin-1.webp",
+      "bytes": 1556,
+      "sha256": "ef3f61f8c531641857ef5be5dd141bbb965eec4da58999469f9d7f6ec39f75d4"
+    },
+    {
+      "path": "app/character_assets/images/skin-2.webp",
+      "bytes": 1750,
+      "sha256": "33b843acd7a2362b1e901fda78a39c0461212092015ef68637aabfbf35012b7f"
+    },
+    {
+      "path": "app/character_assets/images/skin-3.webp",
+      "bytes": 1822,
+      "sha256": "0991ca9d272d017779422957064853543702f8831b227ba9708e7b94dc2bb801"
+    },
+    {
+      "path": "app/character_assets/parts.json",
+      "bytes": 20829,
+      "sha256": "9be04b586bd81e96084a6847fc957298ea0216195eb6372b0aae8af895c08db9"
+    },
+    {
+      "path": "app/character_creator.py",
+      "bytes": 11449,
+      "sha256": "b4b7fb14140d23b28a8549b83c197a081ad5aa623f0364a46bacc3db65e4b740"
+    },
+    {
+      "path": "app/character_widget.py",
+      "bytes": 19213,
+      "sha256": "3798a2667c9b111a0f96c66505935a1f761ae7b65dda25d3321e24ab6ace6062"
+    },
+    {
+      "path": "app/conversion_selftest.py",
+      "bytes": 11955,
+      "sha256": "18feb3c86c2236566cedd525d03ba04276b929f3de27cf6e1c7328884a3c8b81"
+    },
+    {
+      "path": "app/conversion_service.py",
+      "bytes": 9927,
+      "sha256": "f45926a5fd49f6124dba585fe425e9feeb39edc19964231f1b921a1278a46175"
+    },
+    {
+      "path": "app/converter_widget.py",
+      "bytes": 6327,
+      "sha256": "d3bc89f64f89b13e9917731d8f3f86c46ef70da2501fff7bfc122c00e5ab3c25"
+    },
+    {
+      "path": "app/direct_reader.py",
+      "bytes": 36653,
+      "sha256": "a45e5ea534d11fb582fd85809b27ae3b05d233f8d02b0a4e2f2c7130285a3e9f"
+    },
+    {
+      "path": "app/friend_dialog.py",
+      "bytes": 7550,
+      "sha256": "ad3d369764ff71d9c8d4c1cd0e644329046c58cbab573977566ba346d8462c98"
+    },
+    {
+      "path": "app/friend_preview.py",
+      "bytes": 1097,
+      "sha256": "621220032cc8accc396c16c3424d2cc5b4ba89a997c1b78a88270f4333f836f7"
+    },
+    {
+      "path": "app/friend_render.py",
+      "bytes": 5215,
+      "sha256": "a8067f45454c82189f7520890ea59083b2e312a2f6ee9bb0bc3459259dd0a1c6"
+    },
+    {
+      "path": "app/friend_service.py",
+      "bytes": 1880,
+      "sha256": "c42f67f71bdf0add7d73c6d81a9372b89cdce0dda8a0f34bffe7ae7bb1b00f90"
+    },
+    {
+      "path": "app/friend_to_my.py",
+      "bytes": 4760,
+      "sha256": "9cc9626a4ded639bc6e8699fabd1ff170d1a30d3003e2b093af6620312b07849"
+    },
+    {
+      "path": "app/game_scene.py",
+      "bytes": 3621,
+      "sha256": "509e3eda0e8a444a9ad6077411b5997eca21bc6244850f9ddce421f13f8d352c"
+    },
+    {
+      "path": "app/ipc_files.py",
+      "bytes": 1830,
+      "sha256": "b70b5b3806324da169c436d6cf60075f884d382c731df9a687ecf86b65d6604e"
+    },
+    {
+      "path": "app/native_scan_intent.py",
+      "bytes": 12785,
+      "sha256": "c040dd673e00e21c12a8f5a4b88dd0ff7a030a187ba6940cdb2f466973769a57"
+    },
+    {
+      "path": "app/offline_check.py",
+      "bytes": 27215,
+      "sha256": "4fc69054718ea3aa7d9ff5351eeea80c73fee38daa11d681f73287800ecf200a"
+    },
+    {
+      "path": "app/portrait_service.py",
+      "bytes": 34642,
+      "sha256": "58a940ab49d4b28362593b43ea45f657305fc580323146a081d424f1acbcad88"
+    },
+    {
+      "path": "app/protocol_delivery.py",
+      "bytes": 6365,
+      "sha256": "07a83f374a4261077ff6f85d1bdb685a34fef4f4e39c9171958022c1672ccf42"
+    },
+    {
+      "path": "app/rank_service.py",
+      "bytes": 2665,
+      "sha256": "653e0ca0ef977af890cb1f890ff9cf74ac38a502bbc97bf79b83aaadb9c67259"
+    },
+    {
+      "path": "app/reader_reconnect.py",
+      "bytes": 4045,
+      "sha256": "be544762833102a14ff2ef2a0d555a257e95cf72b0e535724bd16f2cbbff91cb"
+    },
+    {
+      "path": "app/reader_service.py",
+      "bytes": 10141,
+      "sha256": "47206d032f007a9ff6c875ee441b5d0214e8e588da4034b65508d01947331075"
+    },
+    {
+      "path": "app/remote_bridge.py",
+      "bytes": 13454,
+      "sha256": "d0ad4dededd864378d950c75928716a831b6895847a5465d773568b77a98b949"
+    },
+    {
+      "path": "app/remote_catalog.py",
+      "bytes": 12033,
+      "sha256": "fa0252a88f6decb41369870ee3dda3742ce28cb9fbb4f0c3b34d9c598627a877"
+    },
+    {
+      "path": "app/remote_runtime.py",
+      "bytes": 6406,
+      "sha256": "8805225a77821920af2c68b54550b37c81aa71c7d2356c6a33c2796bf4db565d"
+    },
+    {
+      "path": "app/remote_widget.py",
+      "bytes": 24718,
+      "sha256": "9cf0d3f56295647e12aadfe9a7001ac7ddf11df5b5f6cc8a77456d39b24580f8"
+    },
+    {
+      "path": "app/single_instance.py",
+      "bytes": 2581,
+      "sha256": "b6d5f298dca54d986ed9301fc62497b4c3da7076f9247d330ec4dd6b3efcc371"
+    },
+    {
+      "path": "app/ticket_assets/name_characters.json",
+      "bytes": 3862,
+      "sha256": "5674e42b815cbc74c810aa09ae885213a658c460bbb9c2a6183896499d26ba4c"
+    },
+    {
+      "path": "app/ticket_assets/parts.json",
+      "bytes": 13616,
+      "sha256": "7d017a31d18689428965896ba9fb3b44cdcd8aa275832de967c6853f0d6f4bc3"
+    },
+    {
+      "path": "app/ticket_browser.py",
+      "bytes": 32001,
+      "sha256": "042a089de17e01f6fdf8bf991c7a5f399e1b61f0b8c98fa2d16c538c0eb7a964"
+    },
+    {
+      "path": "app/ticket_capture.py",
+      "bytes": 6822,
+      "sha256": "7e3206cd47eb4be1175cec807f1e01871c814c19c65d032d387cb55e9823ed30"
+    },
+    {
+      "path": "app/ticket_codec.py",
+      "bytes": 10077,
+      "sha256": "78c95cfd00ceb023778a4f60c271dff158148c970f364d37c8fcce4fa31c2572"
+    },
+    {
+      "path": "app/ticket_index.py",
+      "bytes": 4306,
+      "sha256": "22fd1530550c6df6cc91b62842b7838413ba32c6b76ef5d245d1622e06723497"
+    },
+    {
+      "path": "app/ticket_item.py",
+      "bytes": 1573,
+      "sha256": "663b3476a95f9e69a79b0505a3bf6827585a12a94cf037f8fafd989cb1033c08"
+    },
+    {
+      "path": "app/ticket_store.py",
+      "bytes": 36608,
+      "sha256": "5b3ff1a0214b4167c3e660cd28a18a7361e47718bcdade9d03ff5a770065099f"
+    },
+    {
+      "path": "app/ticket_trash.py",
+      "bytes": 4179,
+      "sha256": "a7d72492a8f7e2ac04db7f56555c7e29b0a84dbf4e54dd9cc925f03cd478949e"
+    },
+    {
+      "path": "app/ticket_widgets.py",
+      "bytes": 2019,
+      "sha256": "2229b128f5ca5bb58b0fe3461acf1ccc1c4c0c965db7357d9b6841364f33ebe2"
+    },
+    {
+      "path": "app/trash_dialog.py",
+      "bytes": 7651,
+      "sha256": "61573c22799b96d9c67108697f2a44e8dbec32b469dfce9bb884a25d03ef7912"
+    },
+    {
+      "path": "app/user_picker.py",
+      "bytes": 5310,
+      "sha256": "60e587763b19a37c54d8f745eb0e349bb7e942ebff4109f42fbb4a5514953fbe"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "bytes": 6583,
+      "sha256": "90d8e27373a08b9f65903e1c00fca9cf986149b549193be79de401133d135df6"
+    },
+    {
+      "path": "docs/DEPENDENCY_SOURCES.md",
+      "bytes": 2045,
+      "sha256": "208a845162fe39526ecc5c8c205c0b098e69fe084f45b97b4d1da361ba0264bc"
+    },
+    {
+      "path": "docs/DIRECT_QR.md",
+      "bytes": 1542,
+      "sha256": "aff0a78ed060393a84495f693119a5da64db58beb280858733a641a502e2949c"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3487,
+      "sha256": "22a972021396c94b06369c06a5e779517e6705685d228b1debb91746467024ce"
+    },
+    {
+      "path": "docs/사용법.txt",
+      "bytes": 5207,
+      "sha256": "311b8e78af1f10c2a4091c9cef62e810d8109ecb7ac3b2ed297355d44aff7bc2"
+    },
+    {
+      "path": "licenses/altgraph-0.17.5.dist-info/LICENSE",
+      "bytes": 1002,
+      "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+    },
+    {
+      "path": "licenses/cffi-2.1.1.dist-info/LICENSE",
+      "bytes": 1123,
+      "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+    },
+    {
+      "path": "licenses/cryptography-50.0.2.dist-info/LICENSE",
+      "bytes": 197,
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+    },
+    {
+      "path": "licenses/cryptography-50.0.2.dist-info/LICENSE.APACHE",
+      "bytes": 11360,
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+    },
+    {
+      "path": "licenses/cryptography-50.0.2.dist-info/LICENSE.BSD",
+      "bytes": 1532,
+      "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+    },
+    {
+      "path": "licenses/llvm-mingw-LICENSE.txt",
+      "bytes": 15141,
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+    },
+    {
+      "path": "licenses/numpy-2.2.6.dist-info/LICENSE.txt",
+      "bytes": 47709,
+      "sha256": "14256cc3a2c9d32ac284da96b937feb44f72dd90bee2317ac3020166846ad99d"
+    },
+    {
+      "path": "licenses/packaging-26.3.dist-info/licenses/LICENSE",
+      "bytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "licenses/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "licenses/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+      "bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "licenses/pillow-12.3.0.dist-info/licenses/LICENSE",
+      "bytes": 78016,
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+    },
+    {
+      "path": "licenses/pycparser-3.11.dist-info/LICENSE",
+      "bytes": 1543,
+      "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+    },
+    {
+      "path": "licenses/pyinstaller-6.22.3.dist-info/licenses/COPYING.txt",
+      "bytes": 32604,
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+    },
+    {
+      "path": "licenses/pyside6_essentials-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+      "bytes": 470,
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    },
+    {
+      "path": "licenses/Python-LICENSE.txt",
+      "bytes": 32762,
+      "sha256": "792fd2d8227bb8785d144c40359b38d752842754e458102ba436fd46252763f3"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/Apache-2.0.txt",
+      "bytes": 10398,
+      "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/BSD-3-Clause.txt",
+      "bytes": 1478,
+      "sha256": "62803a6fcceef9091a129d7293d2469ea332b35d30f5e1bc4c628a9f35f3d29c"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "bytes": 22955,
+      "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/GPL-2.0-only.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/GPL-3.0-only.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/LGPL-3.0-only.txt",
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "bytes": 462,
+      "sha256": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700"
+    },
+    {
+      "path": "licenses/Qt/pyside-setup/LICENSES/Qt-GPL-exception-1.0.txt",
+      "bytes": 965,
+      "sha256": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2"
+    },
+    {
+      "path": "licenses/Qt/qtbase/licenseRule.json",
+      "bytes": 26242,
+      "sha256": "e9bb0e0c6c7257c682e3407a14a580dfa6d85b9986717b16585cf673f521125f"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/AFL-2.1.txt",
+      "bytes": 8948,
+      "sha256": "93bb4f7417aa775bab9026cc3d0af28aeb64451fc5a8ec651876785edd8eaf9b"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Apache-2.0.txt",
+      "bytes": 10398,
+      "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Bitstream-Vera.txt",
+      "bytes": 8816,
+      "sha256": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/blessing.txt",
+      "bytes": 244,
+      "sha256": "592db1199aab67aafe4515db9808b420db122083807c5329b2f061951e79acbe"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/BSD-2-Clause.txt",
+      "bytes": 1276,
+      "sha256": "8fda146749ca071ac9cdce2e24d25444676ea48d1f9dccc2b7c15c054b717db8"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/BSD-3-Clause.txt",
+      "bytes": 1469,
+      "sha256": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/BSD-4-Clause.txt",
+      "bytes": 1672,
+      "sha256": "83faa0d205c316ce3efeafee465b6a165914fb29595968c08dc6437021b7b6fd"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/BSL-1.0.txt",
+      "bytes": 1340,
+      "sha256": "3abd6471b9a9a08d65ce771143f8e278bb4c1aeb10c1c2d476935a6b049653f5"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/FTL.txt",
+      "bytes": 6743,
+      "sha256": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "bytes": 22955,
+      "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/GPL-2.0-only.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/GPL-2.0-or-later.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/GPL-3.0-only.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/HPND.txt",
+      "bytes": 1188,
+      "sha256": "67ac968431270291f5e9cd3ed76705e1169f57082ee102093b2543b28cef63cf"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/IJG.txt",
+      "bytes": 1815,
+      "sha256": "1cb448f5e2e6d3aca60943f4eee1a04675628dc0266a074a42bc1560ebc28d61"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Imlib2.txt",
+      "bytes": 1986,
+      "sha256": "8846f2baba1a7f4c36f7ca19a923a000d8a21afa37cf0fe006f6ce88a6058a89"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/IPL-1.0.txt",
+      "bytes": 11789,
+      "sha256": "d5328e672fb1bff47ee18e890784541453380081cf3771bb7b3c06fc19c7d503"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LGPL-2.1-or-later.txt",
+      "bytes": 25906,
+      "sha256": "1ccf09bf2f598308df4bed9cd8e9657dc5cd0973d2800318f2e241486e2edf3f"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LGPL-3.0-only.txt",
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/libpng-2.0.txt",
+      "bytes": 5345,
+      "sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Libpng.txt",
+      "bytes": 4120,
+      "sha256": "58fe669792f9b4e0740bf75ecfe90b5326128bb2ce7e27e1c342abd9db4d8ea6"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt",
+      "bytes": 1852,
+      "sha256": "0526625fcc746a42d3f19a0ab357d3dc8479fdbe3bfd168825498f50215c7a63"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LicenseRef-ICC-License.txt",
+      "bytes": 463,
+      "sha256": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LicenseRef-Lcs-Telegraphics.txt",
+      "bytes": 139,
+      "sha256": "c10225ebbd5191bfdd761b0d7752c785f2453ab665d6c454473fb12d254668aa"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "bytes": 462,
+      "sha256": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/LicenseRef-SHA1-Public-Domain.txt",
+      "bytes": 144,
+      "sha256": "65d86b8ec6b1cd8b8f6e64fd8710274ba00d6a3c520e00dfdcd1c3d2071f3305"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Linux-syscall-note.txt",
+      "bytes": 624,
+      "sha256": "3f9e477523febab58de8b716ccfbcf02e6ef1c8e7728953905e8558637abe2a9"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/MIT-Khronos-old.txt",
+      "bytes": 1306,
+      "sha256": "3c58021633974f9ed3c3d445a374240a5244fd039628f4d7f6f3e674bc8e6694"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/MIT-open-group.txt",
+      "bytes": 897,
+      "sha256": "c55d2ab72d8a4f9e9cd8fbd1379268e575e8cfa16874affa5899b75a6d754514"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/MIT.txt",
+      "bytes": 1111,
+      "sha256": "d040359701c01996a017d5c515678929cd1b0625e64cb86db44025fbb6cdf1fc"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/MPL-2.0.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Qt-GPL-exception-1.0.txt",
+      "bytes": 965,
+      "sha256": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/SPL-1.0.txt",
+      "bytes": 23547,
+      "sha256": "f58f2f30909982445f97f1a61667261920a7caeab21ef5bea1b740f5b144d141"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Unicode-3.0.txt",
+      "bytes": 1995,
+      "sha256": "80bb6294022d8764adb36a9d65ebb6bd94efb1865918a71e31e6c247607d7634"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/X11.txt",
+      "bytes": 1338,
+      "sha256": "e2936c6509784b4f0ec27bac74182393866fad9422b29a70e085ff14aba87193"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Xerox.txt",
+      "bytes": 965,
+      "sha256": "b6bc52205d01e10cf43dbb7b8aec06dcaa3b21d1486e7c9c0bec329ee8244d8d"
+    },
+    {
+      "path": "licenses/Qt/qtbase/LICENSES/Zlib.txt",
+      "bytes": 1465,
+      "sha256": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/licenseRule.json",
+      "bytes": 4553,
+      "sha256": "b29962836bc7199b0728278876f0f9fa96f6f4a5a609a29adf3f775941a319be"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/BSD-3-Clause.txt",
+      "bytes": 1469,
+      "sha256": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "bytes": 22955,
+      "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/GPL-2.0-only.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/GPL-3.0-only.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/LGPL-3.0-only.txt",
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/libtiff.txt",
+      "bytes": 1146,
+      "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7"
+    },
+    {
+      "path": "licenses/Qt/qtimageformats/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "bytes": 462,
+      "sha256": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/licenseRule.json",
+      "bytes": 5209,
+      "sha256": "b2d11d67146b60b43df54e9fb7aa24a20ea84896037dd400c663c3a1d3daf134"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/BSD-3-Clause.txt",
+      "bytes": 1469,
+      "sha256": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "bytes": 22955,
+      "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/GPL-2.0-only.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/GPL-3.0-only.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/HPND-sell-variant.txt",
+      "bytes": 1185,
+      "sha256": "3a946598a9f674d44df764279ca0b85b5d6faba08f3bc75d8e0fcf6cd729a9bd"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/LGPL-3.0-only.txt",
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "licenses/Qt/qtsvg/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "bytes": 462,
+      "sha256": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700"
+    },
+    {
+      "path": "licenses/Qt/qttranslations/licenseRule.json",
+      "bytes": 2401,
+      "sha256": "0087aedb53430fb236602d1965834ff1c902e905b672b759a22ce9665f8a836c"
+    },
+    {
+      "path": "licenses/Qt/qttranslations/LICENSES/BSD-3-Clause.txt",
+      "bytes": 1469,
+      "sha256": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce"
+    },
+    {
+      "path": "licenses/Qt/qttranslations/LICENSES/GPL-3.0-only.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "licenses/Qt/qttranslations/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "bytes": 462,
+      "sha256": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700"
+    },
+    {
+      "path": "licenses/Qt/qttranslations/LICENSES/Qt-GPL-exception-1.0.txt",
+      "bytes": 965,
+      "sha256": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2"
+    },
+    {
+      "path": "licenses/setuptools-65.5.0.dist-info/LICENSE",
+      "bytes": 1050,
+      "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8"
+    },
+    {
+      "path": "licenses/shiboken6-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+      "bytes": 470,
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    },
+    {
+      "path": "licenses/typing_extensions-4.16.0.dist-info/LICENSE",
+      "bytes": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "path": "licenses/UnityCapture-Filter-MIT.txt",
+      "bytes": 1265,
+      "sha256": "0da34918c953a5a19838fb6b2c7102522760beabd1e343db6dfd5cf38a59e720"
+    },
+    {
+      "path": "licenses/UnityCapture-Plugin-zlib.txt",
+      "bytes": 1028,
+      "sha256": "ac66a0ba49b469b9d72e015175fe4e676d999d7f8e646606f4f04f9c826e637b"
+    },
+    {
+      "path": "licenses/zxing-cpp/LICENSE-Apache-2.0.txt",
+      "bytes": 10398,
+      "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+    },
+    {
+      "path": "licenses/zxing-cpp/NOTICE.txt",
+      "bytes": 209,
+      "sha256": "95d7738a2fd836b1df3852558de8a2593c8f2277728952a35a6ebc8eb2af2935"
+    },
+    {
+      "path": "native/qr/LICENSE.txt",
+      "bytes": 1265,
+      "sha256": "0da34918c953a5a19838fb6b2c7102522760beabd1e343db6dfd5cf38a59e720"
+    },
+    {
+      "path": "native/qr/shared.inl",
+      "bytes": 6126,
+      "sha256": "90d788bef0dad3fc7c460c4305bbc79b65715651e7aa6351f658f84198dc2144"
+    },
+    {
+      "path": "native/README.txt",
+      "bytes": 1370,
+      "sha256": "3dfc3dd13004bd04ed85fd4740ab22b491b6ffa30902511888c60de4ec5d72fa"
+    },
+    {
+      "path": "native/sender/PriParaFrameSender.cpp",
+      "bytes": 6933,
+      "sha256": "64e62e825766ec07665992f4ddbc53e1f9b2d80d41198f34a742752cb27e633d"
+    },
+    {
+      "path": "native/sender/selftest_receiver.cpp",
+      "bytes": 4009,
+      "sha256": "a74dc0f078f0d97308a6658befed5ea7e88d887376d91b4d8b58f1d2a7d123c2"
+    },
+    {
+      "path": "PriParaImageCamera.spec",
+      "bytes": 2150,
+      "sha256": "9fa6232d58bef3093e57cb4d30698a07c35b93172d99ab8522d1aff67228a737"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16086,
+      "sha256": "6e28dcdf6354457b6d1bf3ce4193df56b30866c48d88671ebf1c5ab044ad607d"
+    },
+    {
+      "path": "requirements-build.txt",
+      "bytes": 40,
+      "sha256": "62d2297563d627ecc05af21002ca3659ca1714957a089e0d5a7e40ebdd2e5ed1"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 149,
+      "sha256": "1822269175e05b341d7eb160dcb1f918d8edc77210f4ba2f3d1cb3d06b9911b1"
+    },
+    {
+      "path": "scripts/app_version.txt",
+      "bytes": 591,
+      "sha256": "1b94774401da785666c77efe9bc26807abdc124400d1dee03c1b14e979b1599e"
+    },
+    {
+      "path": "scripts/build_app.py",
+      "bytes": 2387,
+      "sha256": "6939222ec42958c28fa009979da6692884fdaf5a580d693df005bfb1d10915d3"
+    },
+    {
+      "path": "scripts/build_sender.py",
+      "bytes": 14218,
+      "sha256": "b390c3681207f716147288e72922c0cac3352ed41e7b3aa98b540d23bf6b4811"
+    },
+    {
+      "path": "scripts/fetch_third_party_sources.py",
+      "bytes": 4329,
+      "sha256": "f372d25b9e4b3d6a6cc0382ae6f036db200079af0ff775ae37b1ff2f11e8de8a"
+    },
+    {
+      "path": "scripts/fetch_toolchain.py",
+      "bytes": 1317,
+      "sha256": "016c16b33083a9aa8898ca96c1a09242e7a4197f8fdc62af147ad382dd97b294"
+    },
+    {
+      "path": "scripts/toolchain.json",
+      "bytes": 296,
+      "sha256": "3edbb70ae5b412b1e07f701a90834184f401d5665eb71907d423a9636950e92f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4374,
+      "sha256": "4853cd74c51cdf290270f61fb33e8686a41d30e969482fe1641e1c1faeb9895c"
+    },
+    {
+      "path": "tools/package_suite.py",
+      "bytes": 5097,
+      "sha256": "d22debe2c04286ff539abe2605f8a7b32adaf92fd661b1438eedea36493afab0"
+    },
+    {
+      "path": "tools/prepare_character_assets.py",
+      "bytes": 3827,
+      "sha256": "7b1364577f059264fe4be1146a2ba5be340ff9fa20760287aad444089744e674"
+    },
+    {
+      "path": "tools/prepare_portrait_assets.py",
+      "bytes": 16672,
+      "sha256": "60dfc509fad1211e6ff2a2df2c7d07762157975b644d4f3fad4b500ce9f3046a"
+    },
+    {
+      "path": "tools/prepare_suite_data.py",
+      "bytes": 13377,
+      "sha256": "ccb178d9d2e382dcf18066451ffe57a3e50a0f80e85a672ebcb641a1f6720ff1"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 7,
+      "sha256": "c3879c1c833bd46564c1040642f4a723bf7f77ceea45595fd8c77f68d2d959dd"
+    }
+  ]
+}

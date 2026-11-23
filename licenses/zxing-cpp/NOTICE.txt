@@ -1,0 +1,5 @@
+ZXing-C++ / zxing-cpp Python bindings 3.1.1
+Copyright ZXing-C++ contributors.
+License: Apache-2.0.
+Upstream: https://github.com/zxing-cpp/zxing-cpp
+The binary is a separate, replaceable extension module.
