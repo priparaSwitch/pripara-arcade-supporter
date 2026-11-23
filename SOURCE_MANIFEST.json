@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.3.1",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,7 +19,7 @@
     {
       "path": "app/app_dual.py",
       "bytes": 27248,
-      "sha256": "8e863ccb50954decee01228520455792724d16654c5b0aaf1a2b3004319a280a"
+      "sha256": "26ba3c43e78c0a77e7cbbead4c22f614e920b3caeaa23984436d12620c5171fb"
     },
     {
       "path": "app/camera_broker.py",
@@ -968,13 +968,13 @@
     },
     {
       "path": "app/native_scan_intent.py",
-      "bytes": 12785,
-      "sha256": "c040dd673e00e21c12a8f5a4b88dd0ff7a030a187ba6940cdb2f466973769a57"
+      "bytes": 13241,
+      "sha256": "1ffdb2bc8cdbb7dc7660f82a1a8c40a73ac76a4a2e2cff83fde9c49ae0d452bf"
     },
     {
       "path": "app/offline_check.py",
       "bytes": 27215,
-      "sha256": "4fc69054718ea3aa7d9ff5351eeea80c73fee38daa11d681f73287800ecf200a"
+      "sha256": "64de4c33c06b6b3925af73b13225b33c94672564026c847c14ac53b06b14ea2f"
     },
     {
       "path": "app/portrait_service.py",
@@ -1103,13 +1103,13 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 3487,
-      "sha256": "22a972021396c94b06369c06a5e779517e6705685d228b1debb91746467024ce"
+      "bytes": 4136,
+      "sha256": "6650dae46782e9f742373eba7cda1ce72e8ee247919ca235b67aad2e81b959e9"
     },
     {
       "path": "docs/사용법.txt",
       "bytes": 5207,
-      "sha256": "311b8e78af1f10c2a4091c9cef62e810d8109ecb7ac3b2ed297355d44aff7bc2"
+      "sha256": "2c687730c7547d3ab509dfcf69940d113dcb18d9ca37665bc945e15e87f9952f"
     },
     {
       "path": "licenses/altgraph-0.17.5.dist-info/LICENSE",
@@ -1593,8 +1593,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16086,
-      "sha256": "6e28dcdf6354457b6d1bf3ce4193df56b30866c48d88671ebf1c5ab044ad607d"
+      "bytes": 16390,
+      "sha256": "1912853e2ff69461394bf6e32aa9bcdc4f89d9ff1b06240532a795838c5ee7f8"
     },
     {
       "path": "requirements-build.txt",
@@ -1609,7 +1609,7 @@
     {
       "path": "scripts/app_version.txt",
       "bytes": 591,
-      "sha256": "1b94774401da785666c77efe9bc26807abdc124400d1dee03c1b14e979b1599e"
+      "sha256": "ada9693799c172368236b793b845281db70dcea92c0bafa17192a715c61c33ca"
     },
     {
       "path": "scripts/build_app.py",
@@ -1664,7 +1664,7 @@
     {
       "path": "VERSION",
       "bytes": 7,
-      "sha256": "c3879c1c833bd46564c1040642f4a723bf7f77ceea45595fd8c77f68d2d959dd"
+      "sha256": "7ead4dba2ddfef2514583b89d64fa8d071c592c66a964511a30efdca78ddaf9d"
     }
   ]
 }

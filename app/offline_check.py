@@ -70,7 +70,7 @@ def _ui_check(root,result,check):
             window.timer.stop();window.remote.timer.stop()
             for browser in window.galleries.values():browser.timer.stop()
             check('real six-tab suite starts without optional images',list(window.channels)==['lower'] and [window.tabs.tabText(i) for i in range(window.tabs.count())]==['QR 리더','코디 리모컨','마이티켓','우정티켓','캐릭터 생성','우정티켓 변환기'] and window.catalog.available and not window.catalog.images_available and window.ticket_worker is None and window.index_worker is None and window.portraits is None and not window.isVisible() and window.channels['lower'].camera is None)
-            check('helper title and version',window.windowTitle()=='프리파라HK 도우미 v2.3.0')
+            check('helper title and version',window.windowTitle()=='프리파라HK 도우미 v2.3.1')
             check('KR converter starts without private key material',not window.converter.service.key_status().get('available',False))
             check('database loads validated auxiliary metadata',bool(window.catalog.sets) and all(item['aux_known'] for item in window.catalog.items.values()))
             check('startup does not transmit',not broker.remote and not any(x.get('send_requested') for x in broker.qr))
@@ -155,7 +155,7 @@ def _ui_check(root,result,check):
             if blocked:raise AssertionError('Forbidden offline operation was attempted')
 
 def run(report_path):
-    result=dict(passed=False,version='2.3.0',frozen=bool(getattr(sys,'frozen',False)),checks=[],protocol_keys_embedded=False,camera_opened=False,driver_registration=False,IPC_or_mutex_created=False,producer_started=False,game_files_read_or_written=False,game_process_access=False,personal_files_read=False,network_used=False,UI_shown=False,scope='Synthetic files, actual offscreen UI, read-only DLL version; no live game or camera')
+    result=dict(passed=False,version='2.3.1',frozen=bool(getattr(sys,'frozen',False)),checks=[],protocol_keys_embedded=False,camera_opened=False,driver_registration=False,IPC_or_mutex_created=False,producer_started=False,game_files_read_or_written=False,game_process_access=False,personal_files_read=False,network_used=False,UI_shown=False,scope='Synthetic files, actual offscreen UI, read-only DLL version; no live game or camera')
     def check(name,value):
         result['checks'].append(dict(name=name,passed=bool(value)))
         if not value:raise AssertionError(name)
@@ -199,7 +199,7 @@ def run_portrait(report_path):
     import camera_broker,direct_reader,remote_bridge
     report_path=Path(report_path);report_path.parent.mkdir(parents=True,exist_ok=True)
     source=Path(sys.executable).parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]
-    result=dict(passed=False,version='2.3.0',frozen=bool(getattr(sys,'frozen',False)),synthetic_appearance=True,
+    result=dict(passed=False,version='2.3.1',frozen=bool(getattr(sys,'frozen',False)),synthetic_appearance=True,
         personal_browser_profile=False,game_process_access=False,camera_opened=False,QR_sent=False,UI_shown=False)
     blocked=[]
     def deny(*args,**kwargs):blocked.append(True);raise AssertionError('Forbidden portrait-check operation')
@@ -244,7 +244,7 @@ def run_portrait_suite(report_path):
     from ticket_store import TicketStore
     report_path=Path(report_path);report_path.parent.mkdir(parents=True,exist_ok=True)
     source=Path(sys.executable).parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]
-    result=dict(passed=False,version='2.3.0',frozen=bool(getattr(sys,'frozen',False)),
+    result=dict(passed=False,version='2.3.1',frozen=bool(getattr(sys,'frozen',False)),
         actual_suite=True,actual_portrait_service=True,manual_preview_clicked=False,synthetic_tickets_only=True,
         private_environment_used=False,UI_shown=False,game_process_access=False,camera_opened=False,QR_sent=False)
     blocked=[]

@@ -12,7 +12,12 @@ from collections import OrderedDict
 from pathlib import Path
 
 # Integrity identities of the reviewed executable/SDK, not profile IDs or keys.
-GAME_SHA256='bd75c18c04529a394b7c3e43a5791ecb738e802e179a41722f54513e26af0f72'
+REVIEWED_GAME_SHA256=frozenset({
+    # Reward-aware Print V29 and End-QR-hidden V30 (installed/public variants).
+    'bd75c18c04529a394b7c3e43a5791ecb738e802e179a41722f54513e26af0f72',
+    '912452be3100ff3a4518c2d45dc7a72ff23484dd77f0b406f12d4720c42fa290',
+    'efb1696bf709872d81232da6f8315ded37d139691db5478b239138dbd36be2ba',
+})
 SDK_SHA256='3959ced4f2b035e4149c606da4fd39c55d383fa8c4b239bd99c5255dfaa3dfb8'
 PREFERRED=0x400000
 SCENE_ROOT_RVA=0x1200fa8
@@ -124,7 +129,7 @@ class NativeScanIntent:
         return result
     def _verify_code_bytes(self,memory,identity):
         raw=Path(identity['path']).read_bytes()
-        if hashlib.sha256(raw).hexdigest()!=GAME_SHA256:return False
+        if hashlib.sha256(raw).hexdigest() not in REVIEWED_GAME_SHA256:return False
         layout=_layout(raw)
         if layout['base']!=PREFERRED or layout['size']!=memory.size:return False
         text=next(section for section in layout['sections'] if section['name']=='.text')

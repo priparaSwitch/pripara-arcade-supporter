@@ -1,4 +1,4 @@
-프리파라HK 도우미 v2.3.0
+프리파라HK 도우미 v2.3.1
 
 PriParaImageCamera.exe를 실행합니다. _internal 폴더와 data.db를 함께 둡니다.
 images.bin은 선택 사항입니다. 없으면 의상 사진 대신 이름 목록을 사용합니다.

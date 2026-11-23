@@ -23,7 +23,7 @@ from portrait_service import PortraitService
 from converter_widget import ConverterWidget
 from friend_to_my import FromFriendDialog
 
-VERSION='2.3.0'
+VERSION='2.3.1'
 DEVICES={'lower':'PriPara QR Camera'}
 
 class Stream(QThread):
